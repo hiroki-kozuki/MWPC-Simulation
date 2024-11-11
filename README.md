@@ -18,4 +18,4 @@ More information about Garfield++, dependencies, and build system can be found b
 <img width="400" alt="Screenshot 2024-11-11 at 15 43 11" src="https://github.com/user-attachments/assets/48af6040-dc4e-44f1-8547-4a0f4d506210">
 <img width="800" alt="Screenshot 2024-11-11 at 15 37 57" src="https://github.com/user-attachments/assets/74b902b8-6820-48b8-888e-1e19c5d5bba3">
 
-On the last plot, orange represents the induced current in one of the two anode sensing wires due to electron drifts, red represents the induced current due to ion drifts, and blue represents the total induced current (electrons + ions). The program (Heed) treats the ionisation of the gaseous medium (50% Ar and 50% CO2) in clusters resulting in numerous sharp peaks. 
+On the last plot, orange represents the induced current in one of the two anode sensing wires due to electron drifts, red represents the induced current due to ion drifts, and blue represents the total induced current (electrons + ions). The program (Heed) treats the ionisation of the gaseous medium in clusters resulting in numerous sharp peaks corresponding to different electron and ion clusters. 
