@@ -3,4 +3,4 @@ This repository holds .C files with CMake Makefiles to build an application whic
 Four configurations are presented with different number of layers and cathode architectures (foil vs. wires).
 
 The program runs of Garfield++, which requires C++, CMake, GNU tools, and ROOT. OpenMP is optional for accelerating the simulation (remove OpenMP requirements from CMakeLists.txt if you wish to not use it).
-You can either install Garfiled++ or build it from source following this Garfield++ [User Guide](https://garfieldpp.web.cern.ch/documentation/).
+You can either install Garfiled++ or build it from source by following this Garfield++ [User Guide](https://garfieldpp.web.cern.ch/documentation/), "Chapter 2 - Getting Started".
