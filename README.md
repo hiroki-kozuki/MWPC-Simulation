@@ -2,7 +2,7 @@
 This repository holds .C files with CMake Makefiles to build an application which simulates and visualises the signal outputs of MWPC, a gaseous particle detector developed at CERN.
 Four configurations are presented with different number of layers and cathode architectures (foils vs. wires).
 
-The program runs of Garfield++, which requires C++, CMake, GNU tools, and ROOT. OpenMP is optional for accelerating the simulation (remove OpenMP requirement from CMakeLists.txt if you wish to not use it).
+The program runs on Garfield++, which requires C++, CMake, GNU tools, and ROOT. OpenMP is optional for accelerating the simulation (remove OpenMP requirement from CMakeLists.txt if you wish to not use it).
 You can either install Garfiled++ or build it from source by following this Garfield++ [User Guide](https://garfieldpp.web.cern.ch/documentation/), "Chapter 2 - Getting Started" or from [here](https://garfieldpp.web.cern.ch/garfieldpp/getting-started/).
 
 More information about Garfield++, dependencies, and build system can be found below:
