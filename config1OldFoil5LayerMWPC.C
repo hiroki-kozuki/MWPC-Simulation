@@ -186,12 +186,12 @@ int main(int argc, char * argv[]) {
   // Loop over the clusters.
   int loopcounter = 0;
   double enx = 0., eny = 0., enz = 0., ent = 0.;
-  int st = 0;
+  int st = 0;  // st is a status code that gets modified when error occurs. 
   for (const auto& cluster : track.GetClusters()) {
   	for (const auto& electron : cluster.electrons) {
 		drift.DriftElectron(electron.x, electron.y, electron.z, electron.t);	// Causes the sharp peaks in the signal.
 		drift.DriftIon(electron.x, electron.y, electron.z, electron.t);		// Causes the smooth tail in the signal.
-		drift.GetEndPoint(enx, eny, enz, ent, st);  // st is a status code that gets modified when error occurs. 
+		drift.GetEndPoint(enx, eny, enz, ent, st);  
                 std::cout<<"x: "<<enx<<" y: "<<eny<<" z: "<<enz<<" t: "<<ent<<" stat: "<<st<<std::endl;
 	}
   }
