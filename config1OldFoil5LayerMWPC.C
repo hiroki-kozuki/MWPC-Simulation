@@ -191,7 +191,7 @@ int main(int argc, char * argv[]) {
   	for (const auto& electron : cluster.electrons) {
 		drift.DriftElectron(electron.x, electron.y, electron.z, electron.t);	// Causes the sharp peaks in the signal.
 		drift.DriftIon(electron.x, electron.y, electron.z, electron.t);		// Causes the smooth tail in the signal.
-		drift.GetEndPoint(enx, eny, enz, ent, st);
+		drift.GetEndPoint(enx, eny, enz, ent, st);  // st is a status code that gets modified when error occurs. 
                 std::cout<<"x: "<<enx<<" y: "<<eny<<" z: "<<enz<<" t: "<<ent<<" stat: "<<st<<std::endl;
 	}
   }
